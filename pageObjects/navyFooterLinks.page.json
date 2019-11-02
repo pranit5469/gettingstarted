@@ -1,0 +1,13 @@
+{
+"navyFooterLinks": {
+
+    "selector": {
+
+        "billCalculatorText": "//h1[text()='CUSTOMER BILL CALCULaTOR']",
+        "okButtonCareer": "//button[text()='OK']",
+        "careerPageText": "//h1[text()='Career Opportunities']",
+        "accomodationText": "//h1[text()='Accommodations']"
+
+    }
+}
+}

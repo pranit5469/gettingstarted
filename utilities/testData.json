@@ -1,0 +1,108 @@
+{
+
+    "testData": {
+
+        "qa": {
+
+            "loginData": {
+
+                "Mike":{
+
+                    "loginID": "SUN112SET",
+                    "password": "P1assword",
+                    "cashRecieptConstant": "AB123"
+
+                },
+
+                "Alexander":{
+
+                    "loginID": "PEARL1313",
+                    "password": "P1assword",
+                    "cashRecieptConstant": "AB127"
+
+                },
+                
+                "Debbie":{
+
+                    "loginID": "PEARL1313",
+                    "password": "P1assword",
+                    "cashRecieptConstant": "AB123"
+
+                },
+
+                
+                "Richard":{
+
+                    "loginID": "rlborland",
+                    "password": "P1assword",
+                    "cashRecieptConstant": "AB125"
+
+                },
+
+                "user3":{
+
+                    "loginID": "",
+                    "password": ""
+
+                }
+
+            }
+        
+    },
+
+        "dev": {
+
+            "loginData": {
+
+                    "Gail":{
+
+                        "loginID": "alexdare",
+                        "password": "P1assword",
+                        "cashRecieptConstant": "AB126"
+
+                    },
+
+                    "Richard":{
+
+                        "loginID": "RONNSHORT444",
+                        "password": "P1assword",
+                        "cashRecieptConstant": "AB120"
+
+                    },
+
+                    "user3":{
+
+                        "loginID": "",
+                        "password": ""
+
+                    }
+            }   
+        },
+
+        "julianMonth": {
+
+            "0": 0,
+            "1": 31,
+            "2": 59,
+            "3": 90,
+            "4": 120,
+            "5": 151,
+            "6": 181,
+            "7": 212,
+            "8": 243,
+            "9": 273,
+            "10": 304,
+            "11": 334
+
+
+
+        }
+        
+
+    
+
+    }
+
+    
+
+}

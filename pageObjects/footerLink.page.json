@@ -1,0 +1,15 @@
+{
+    "footerLink": {
+
+        "selector": {
+
+            "PrivacyPolicylink": "//a[text()='Privacy Policy']",
+            "PrivacyPolicyHeadertag": "#dnn_ctr2866_HtmlModule_lblContent > h1 > strong",
+            "TermsOfUseHeadertag": "#dnn_ctr2867_HtmlModule_lblContent > h1 > strong",
+            "facebookVisibleText": "#u_0_0 > span._33vv > a > span",
+            "twitterVisibleText": "#page-container > div.AppContainer > div > div > div.Grid-cell.u-size1of3.u-lg-size1of4 > div > div > div > div.ProfileHeaderCard > h1 > a",
+            "youtubeVisibleText": "#channel-title",
+            "puddleDuckVisibleText": "//h1[text()='Puddles On The Web']"
+        }
+    }
+}

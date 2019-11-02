@@ -1,0 +1,20 @@
+{
+    "login": {
+      
+      "selector":{
+
+         "loginTextbox": "#j_username",
+         "passwordTextbox": "#j_password",
+         "loginButton": "img[alt='Login']",
+         "noThanksButton": "button[data-form='noThanksForm']"
+        
+      },
+      
+      "testData": {
+        
+        "pageTitle": ""
+        
+      }
+      
+    }
+  }

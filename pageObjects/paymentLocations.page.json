@@ -1,0 +1,23 @@
+{
+
+    "paymentLocations": {
+
+        "selector": {
+
+            "cashPaymentLocationView": ".ant-card.amw-payment-location-page.ant-card-bordered",
+            "zipCodeTextbox": "input[class*='amw-input-search-field']",
+            "searchButton": ".amw-payment-location-search-button",
+            "showMoreLink": "a[class*='show-more']",
+            "locationContainer": "#locationWindow",
+            "noSearchResultLabel": "//div[contains(text(), 'No Cash Payment')]",
+            "searchLocationResults": ".ant-row.paymentLocationListRow"
+
+        }
+
+    }
+
+}
+
+
+
+

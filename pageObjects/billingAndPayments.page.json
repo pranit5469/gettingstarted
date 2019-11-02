@@ -1,0 +1,15 @@
+{
+    "billingAndPayments": {
+
+        "selector": {
+
+            "sliderBar": ".ant-slider-step",
+            "sliderBarMonthMarker": "//div[@class='ant-slider-mark']",
+            "sliderHandleStart": ".ant-slider-handle.ant-slider-handle-1",
+            "sliderHandleEnd": ".ant-slider-handle.ant-slider-handle-2",
+            "nextPageLink": "li[title='Next Page']",
+            "billingAndPaymentsTableHeader": ".ant-table-body",
+            "billingAndPaymentsTableBody": ".ant-table-tbody"
+        }
+    }
+}

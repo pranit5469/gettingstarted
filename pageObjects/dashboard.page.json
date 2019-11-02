@@ -1,0 +1,173 @@
+{
+    "dashboard": {
+
+        "selector": {
+
+            "root": "#root",
+            "meter": ".meter",
+            "amwaterLogo": "div.logo",
+            "loadingSpinner": "div[class='fade-leave fade-leave-active']",
+            "accountMeter": ".premise-header .meter-details",
+
+            "loggedUserDropdownMenu": ".login-user>a",
+            "loggedUserSignOutMenuItem": "//li[a[text()='Sign out']]",
+            "loggedUserEditProfileMenuItem": "//a[text()='Edit Profile/Alert Preference']",
+            "loggedUserFeedbackMenuItem": "//li[a[text()='Feedback']]",
+           
+            "feedbackSubmitButton": "button[class= 'submitbtn']",
+            "firstQuestionSecondRadioButton": "input[name='Field 0'][value*='03']",
+            "secondQuestionSecondRadioButton": "input[name='Field 1'][value*='03']",
+            "commentBox": "//*[@class='ant-input comment-textarea']",
+            "selectRadioButtonValidationMsg": "//*[@class='ant-form-explain']",
+            "feedbackModalClose": "//*[@class='ant-modal-close-x']",
+            "feedbackStatus": "div[class= 'ant-notification-notice-description']",
+            "messageArrowClick": "i[class= 'fa fa-angle-down']",
+            "message": "li[class= 'message-list-item']//following-sibling::span[@class='timestamp']",
+
+
+            "headerusageMenu": ".aw-menu-link[data-target='#usage-menu']",
+            "headerPaymentMenu": ".aw-menu-link[data-target='#payment-menus']",
+            "usageOverviewSubMenu": "//li[a[text()='Usage Overview']]",
+            "usageProjectionSubMenu": "//li[a[text()='Usage Projection']]",
+            "conservationTipsSubMenu": "//ul[@id='usage-menu']/li[3]/a",
+            "makePaymentssSubMenu": "//li[a[text()='Make Payment']]",
+            "usageOverviewText": "//h2[text()='Usage Overview']",
+            "usageProjectionText": "//*[@class='title' and contains(text(), 'Usage Projection')]",
+            "conservationTipsText": "//h2[text()='Conservation Tips']",
+            "paperlessText": "//*[@class='amw-paperless-card-container']//*[@class='amw-paperless-card-title']",
+            "autoPayText": "//*[@class='amw-autopay-card-autopay']",
+            "editProfileautopayenrollbutton":"#autopay button",
+
+            
+            "autoPayCard": ".amw-autopay-card-right-container",
+
+            "autoPayEnrollmentWindow": ".amw-autopay-page-title.blackColor",
+            "routingNumber":"#bankRoutingNumber",
+            "bankAcctNumber":"#bankAccountNumber",
+            "confirmbankAcctNumber":"#confirmBankAccountNumber",
+            "autopayCheckbox":".amw-autopay-checkbox",
+            "nextbutton":".ant-btn.amw-bill-payment-modal-button-action.ant-btn-lg",
+            "confirmEnrollmentinformation":".blackColor",
+            "autopaysuccessmsgTitle":".amw-autopay-success-page",
+            "autopaysuccessmsg":".//p[@class='blackColor']",
+            "xicon":".amw-bill-payment-close-icon",           
+            "cancelautopayradiobutton":".ant-radio-input",
+
+            "highlightOverlay": "div[class= 'overlay highlight']",
+            "profileClose":  "//div[@class='close']/a/button",
+            "nextArrowCT": "button[class= 'slick-arrow slick-next']",
+            "gallonsAmonthText": ".slick-slide[data-index='2'] span[text()='gallons a month']",
+            "tipTitle": "//*[@id='conservationTips']/div/div/div[2]/div/div/div/div[2]/div/div/h3",
+            "tipSummary": "//*[@id='conservationTips']/div/div/div[2]/div/div/div/div[2]/div/div/div[3]/div/div[1]/p",
+            "tipNumber": "//*[@id='conservationTips']/div/div/div[2]/div/div/div/div[2]/div/div/div[3]/div/div[1]/span",
+            "autoPayInMakePayment": "//*[@id='root']/div[8]/div[2]/div[3]/div/div[2]/div[4]/div/div/div[1]/div/div/div",
+            "electronicCheckInMakePayment": "//*[@id='root']/div[8]/div[2]/div[3]/div/div[2]/div[4]/div/div/div[2]/div/div/div",
+            "debitCreditInMakePayment": "//*[@id='root']/div[8]/div[2]/div[3]/div/div[2]/div[4]/div/div/div[3]/div/div/div",
+            "cashInMakePayment": "//*[@id='root']/div[8]/div[2]/div[3]/div/div[2]/div[4]/div/div/div[4]/div/div/div",
+            "makePaymentLabel": "label[class= 'amw-detailed-card-title']",
+            "autoPayContinueButtonNew": "//a[@class='amw-pay-bill-now-button']",
+            "messageTitle": "//*[@class='message-list-item'][1]//*[@class='message-block']",
+            "messageTitle2": "//*[@class='message-list-item'][2]//*[@class='message-block']",
+            "messageTitle3": "//*[@class='message-list-item'][3]//*[@class='message-block']",
+
+            "messageIcon": "//*[@class='icon-block']//*[@class='icon-message']",
+
+            "alertTitle1": "//*[@class='message-list-item'][1]//*[@class='message-block']",
+            "alertTimestamp1": "//*[@class='message-list-item'][1]//*[@class='timestamp']",
+            "alertTimestamp2": "//*[@class='message-list-item'][2]//*[@class='timestamp']",
+            "alertTimestamp3": "//*[@class='message-list-item'][3]//*[@class='timestamp']",
+            "alertIcon": "//*[@class='icon-block']//*[@class='icon-alert']",
+            "msgarrowDown": "//*[@class='message-block']//*[@class='fa fa-angle-down']",
+            "alertarrowDown": "//*[@class='alert-block']//*[@class='fa fa-angle-down']",
+            "requestarrowDown": "//*[@class='request-block']//*[@class='fa fa-angle-down']",
+
+            "btnDownload": "button[class= 'action-button messages']",
+
+            "noAlerts": "//*[@class='no-message-error']",
+            "noOpenRequest": "//*[@class='no-message-error']",
+
+
+            "cashpaymentLabel":  "label[class= 'amw-case-receipt-payment']",
+            "CashPaymentssSubMenu": "//li[a[text()='Cash Payments']]",
+            "paymentLocationsSubMenu": "//li[a[text()='Payment Locations']]",
+            "nearestLocationText": "//p[text()='Find Your Nearest Payment Location']",
+            "zipCodeTextBoxPL":  "//*[contains(@placeholder,'Zip Code')]",
+
+            "editProfilePaperlessEnrollmentStat": "//span[text()='Paperless Enrollment']/following-sibling::span/span",
+            "editProfilePaperlessEnrollButton": "#paperless button",
+
+            "servicePeriodLabel": ".amw-bill-period",
+            "makePaymentButton": ".amw-bill-payment-card-button",
+            "paymentsDropdownMenu": "//a[text()='Payments']",
+            "billingAndPaymentsDropdownMenu": "//a[text()='Billing & Payments']",
+            "makePaymentDropdownMenuItem": "//ul[@id='payment-menus']/li[1]/a",
+            "makeAPaymentButton": ".amw-bill-payment-card-button",
+
+            "goPaperlessCard": ".amw-go-paperless-card",
+            "gopaperlessCardSignupButton": ".amw-paperless-submit-button",
+            "paperlessBillingEnrollmentWindow": ".amw-detailed-card-title",
+            "paperlessBillingLabel": "//label[@class='amw-detailed-card-title' or @class='amw-discontinue-card-title']",
+            "paperlessThankyouMessage": ".amw-paperless-allcontent",
+            "paperlessUserAck": ".ant-checkbox+span",
+            "paperlessUserAckCheckbox": "#agreement",
+            "paperlessUserSubmitButton": "button[value='Submit']",
+            "paperlessEnrollmentStatus": "h3[class*='-content']",
+            "modalWindowCloseButton": ".amw-bill-payment-close-icon",
+            "makePaymentCloseModalView": "//*[@id='root']/div[8]/div[2]/div[3]/div/div[2]/div[1]/a/img",
+
+            "autopayContinueButton": "//a[@class='amw-pay-bill-now-button']",
+
+            "servicesRequestCard": "//h2[text()='Service Request']//following-sibling::div[@class='amw-bill-card']",
+            "serviceRequestDescription": "p[class= 'amw-service-request-text']",
+            "serviceRequestNumber": ".amw-service-request-number",
+            "serviceRequestDetails": "span[class*='amw-service-request-label']",
+
+            "paymentLocationsCard": ".ant-card.amw-payment-location-card.aw-card-shadows",
+            "paymentLocationSearchButton": ".buttonSearchImg",
+
+            "PrivacyPolicylink": "//a[text()='Privacy Policy']",
+            "PrivacyPolicyHeadertag": "#dnn_ctr2866_HtmlModule_lblContent > h1 > strong",
+
+            "termsOfUse": "//a[text()='Terms of Use']",
+            "footerFeedback": "//*[@class='section second-section']//a[text()='Feedback']",
+            "facebookFooterLink": "//i[@class= 'fa fa-facebook-square']",
+            "twitterFooterLink": "//i[@class= 'fa fa-twitter']",
+            "youtubeFooterLink": "//i[@class= 'fa fa-youtube-play']",
+            "blogFooterLink": "//i[@class= 'fa fa-rss']",
+            "puddleDuckFooterLink": "//*[@class='puddle']//a",
+
+            "leakDetectionlink": "//a[text()='Leak Detection Information']",
+            "leakDetectionSpanishlink": "//a[text()='Leak Detection Information Spanish']",
+            "billCalculatorlink": "//a[text()='bill calculator']",
+            "searchForOpeningsLink": "//a[text()='Search for Openings']",
+            "accomodationLink": "//a[text()='View our EEO/Accommodation policy']",
+            "formLink": "//a[text()='form']",
+            "contactusLink": "//a[text()='Contact Us']",
+            "contactUsText": "//h1[text()='Contact us']",
+
+            "serviceAlertsContent": "//li[@class= 'alert-list-item'][1]//p[@class='message']",
+           "serviceAlertsContent2": "//li[@class= 'alert-list-item'][2]//p[@class='message']",
+           "serviceAlertsContent3": "//li[@class= 'alert-list-item'][3]//p[@class='message']",
+
+           "serviceAlertsViewMore": "//a[text()='View more']",
+
+            "alertsPage1": "//*[@id='NotificationDetails']//tr[2]//table//tr[4]",
+            "latestAlerts": "//h2[text()='Latest Alerts']",
+            "learnMore": "//li[@class= 'alert-list-item'][1]//span[text()='Learn More']",
+            "learnMore1Text": "//td[@class= 'alert-body-td']//pre",
+            "learnMore2": "//li[@class= 'alert-list-item'][2]//span[text()='Learn More']",
+            "learnMore2Text": "//td[@class= 'alert-body-td']//pre",
+            "learnMore3": "//li[@class= 'alert-list-item'][3]//div[@class= 'icon-link']",
+            "learnMore3Text": "//td[@class= 'alert-body-td']//pre",
+
+            
+             "cardFacebook":"//div[@class= 'card-footer']//*[contains(@href,'facebook')]",
+             "cardTwitter":"//div[@class= 'card-footer']//*[contains(@href,'twitter')]",
+            "cardYoutube":"//div[@class= 'card-footer']//*[contains(@href,'youtube')]",
+             "cardBlog":"//div[@class= 'card-footer']//*[contains(@href,'blog')]",
+            "cardPuddle":"//div[@class= 'card-footer']//*[contains(@href,'puddle')]"
+
+
+        }
+    }
+}

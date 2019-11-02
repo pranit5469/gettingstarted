@@ -1,0 +1,32 @@
+{
+    "makePayment": {
+
+        "selector": {
+
+            "amtDueText": ".amw-make-payment-amount",
+
+            "electronicCheck": "//div[label[text()='Electronic Check']]",
+            "paymentFrame": ".amw-bill-payment-iframe",
+            "amountTextbox": ".scaled",
+            "payContinueButton": ".btn-action.btn-type-next",
+            "duplicatePayContinueButton": "//div[@id='modal-duplicate-payment']//a[text()='Continue']",
+            "agreeTermsAndConsditionsCheckbox": ".checkboxContainer",
+            "payAmountButton": ".btn-action.btn-type-next.click-timeout",
+            "ecPostPayMessageBody": "//body",
+            "ecPostPaymentMessage": "//div[div[img[contains(@src, 'checked')]]]//p[1]",
+
+            "cardPaymentMode": "//div[label[contains(text(), 'Debit Card')]]",
+            "paymentCards": ".standard-label-msg.paymentRadio", 
+
+            "cashPaymentMode": "//div[label[text()='Cash Payment']]",
+            "paymentAmountTextbox": "input[name='paymentAmount']",
+            "recieptNumberTextbox":"input[name='receiptNumber']",
+            "cPostPaymentMessage": "div[class*='amw-billing-completed']",
+            "cashSubmitButton": "input[value='Submit']",
+
+            "makePaymentCloseButton": ".amw-bill-payment-close-icon"
+
+
+        }
+    }
+}

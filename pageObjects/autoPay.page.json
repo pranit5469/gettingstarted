@@ -1,0 +1,28 @@
+{
+    "autopay": {
+
+        "selector": {
+
+           
+
+            "autopayContinueButton": ".amw-pay-bill-now-button",
+            "autoPayCard": ".amw-autopay-card-right-container",
+
+            "autoPayEnrollmentWindow": ".amw-autopay-page-title.blackColor",
+            "routingNumber":"#bankRoutingNumber",
+            "bankAcctNumber":"#bankAccountNumber",
+            "confirmbankAcctNumber":"#confirmBankAccountNumber",
+            "autopayCheckbox":".amw-autopay-checkbox",
+            "nextbutton":".ant-btn.amw-bill-payment-modal-button-action.ant-btn-lg",
+            "confirmEnrollmentinformation":".blackColor",
+            "autopaysuccessmsgTitle":".amw-autopay-success-page",
+            "autopaysuccessmsg":".//p[@class='blackColor']",
+            "xicon":".amw-bill-payment-close-icon",
+           
+            "editProfileautopayenrollbutton":"#autopay button",
+           
+            "cancelautopayradiobutton":".ant-radio-input",
+            "":""
+        }
+    }
+}

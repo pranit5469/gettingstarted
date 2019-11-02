@@ -1,0 +1,47 @@
+{
+  "name": "webdriverio-course-content",
+  "version": "1.0.0",
+  "description": "WebdriverIO",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server sample-site -p 8303",
+    "test": "wdio wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/American-Water/cp-dashboard-qa/"
+  },
+  "author": "Rajesh NM",
+  "license": "lic",
+  "bugs": {
+    "url": "https://github.com/"
+  },
+  "homepage": "https://github.com/",
+  "dependencies": {
+    "git": "^0.1.5",
+    "http-server": "^0.11.1",
+    "request": "^2.88.0",
+    "sync-request": "^6.0.0"
+  },
+  "devDependencies": {
+    "allure-commandline": "^2.8.1",
+    "chai": "^4.1.2",
+    "chromedriver": "^2.44.1",
+    "datejs": "^1.0.0-rc3",
+    "fs": "0.0.1-security",
+    "fs-extra": "^6.0.1",
+    "glob": "^7.1.2",
+    "json-file": "^0.1.0",
+    "jsonpath": "^1.0.0",
+    "node-notifier": "^5.2.1",
+    "os-name": "^3.0.0",
+    "path": "^0.12.7",
+    "wdio-allure-reporter": "^0.6.2",
+    "wdio-cucumber-framework": "^1.1.1",
+    "wdio-firefox-profile-service": "^0.1.2",
+    "wdio-selenium-standalone-service": "0.0.11",
+    "wdio-spec-reporter": "^0.1.4",
+    "wdio-visual-regression-service": "^0.7.0",
+    "webdriverio": "^4.14.1"
+  }
+}
