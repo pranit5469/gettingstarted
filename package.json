@@ -19,7 +19,7 @@
   "homepage": "https://github.com/",
   "dependencies": {
     "git": "^0.1.5",
-    "http-server": "^0.11.1",
+    "http-server": "^0.11.2",
     "request": "^2.88.0",
     "sync-request": "^6.0.0"
   },
